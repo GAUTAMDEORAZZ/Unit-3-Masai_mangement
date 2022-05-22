@@ -1,0 +1,42 @@
+
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 30%;
+    margin: auto;
+}
+
+#form>input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 20px;
+  
+}
+#form>#submit{
+    margin-bottom: 20px;
+    background-color: brown;
+    color: white;
+    height: 30px;
+    width: 30%;
+    border: 0px;
+    border-radius: 10px;
+}
+#form>#name{
+    margin-top: 20px;
+}
+button>a{
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    margin-bottom: 20px;
+    height: 70px;
+    align-items: center;
+}
